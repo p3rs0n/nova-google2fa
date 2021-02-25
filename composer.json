@@ -6,10 +6,16 @@
         "nova"
     ],
     "license": "MIT",
+    "repositories": [
+      {
+        "type": "vcs",
+        "url": "https://github.com/JC5/recovery"
+      }
+    ],
     "require": {
         "php": ">=7.1.0",
         "bacon/bacon-qr-code": "^2.0",
-        "pragmarx/recovery": "^0.1.0",
+        "jc5/recovery": "*",
         "pragmarx/google2fa-laravel": "^0.2.0"
     },
     "autoload": {
